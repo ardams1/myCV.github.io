@@ -1,0 +1,29 @@
+.home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0px 10px;
+}
+.home .wrapper{
+    width: 100%;
+    max-width: 1366px;
+    display: flex;
+    padding: 0 10px;
+}
+
+
+/* Mobil cihazlar için stil */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Font boyutunu küçült */
+    }
+  
+    .container {
+      padding: 20px; /* Alanları küçült */
+    }
+  
+    .item {
+      width: 100%; /* Öğelerin genişliğini %100 yap */
+    }
+  }
